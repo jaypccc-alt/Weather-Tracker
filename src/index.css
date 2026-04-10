@@ -1,0 +1,21 @@
+:root {
+  --primary: #4f46e5;
+  --secondary: #0ea5e9;
+  --bg-main: #f8fafc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-main);
+  font-family: 'Inter', sans-serif;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+}
